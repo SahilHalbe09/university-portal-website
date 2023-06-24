@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About | University Portal</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./styles.css" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet" />
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/68df65cdf8.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="./images/logo.png" alt="" /></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="/about.html">About</a></li>
+						<li><a href="/course.html">Course</a></li>
+						<li><a href="/blog.html">Blog</a></li>
+						<li><a href="/contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+			</nav>
+
+			<div class="text-box">
+				<h1>About Us</h1>
+			</div>
+		</section>
+
+		<!-- Content -->
+		<section class="about-us">
+			<div class="row">
+				<div class="about-col">
+					<h1>We are best practical university in the world</h1>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates facere totam ab quam delectus a cum minus expedita hic eum dicta doloribus natus sapiente veritatis
+						iusto itaque illum, ipsam, nesciunt odit? Consequatur ea unde exercitationem blanditiis adipisci quam eos harum impedit eveniet amet?
+					</p>
+					<a href="" class="hero-btn red-btn">Explore Now</a>
+				</div>
+				<div class="about-col">
+					<img src="./images/about.jpg" alt="" />
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA -->
+		<section class="cta">
+			<h1>
+				Enroll For Our Various Online Courses <br />
+				Anywhere From The World.
+			</h1>
+			<a href="" class="hero-btn">Contact Us</a>
+		</section>
+
+		<!-- Footer -->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem magni doloribus, quia nihil in a tempora aperiam atque? <br />
+				Deleniti cupiditate blanditiis fugiat accusamus. Autem, magnam?
+			</p>
+			<div class="icons">
+				<i class="fa fa-brands fa-facebook"></i>
+				<i class="fa fa-brands fa-twitter"></i>
+				<i class="fa fa-brands fa-instagram"></i>
+				<i class="fa fa-brands fa-linkedin"></i>
+			</div>
+			<p>Made By <i class="fa fa-solid fa-laptop-code"></i> <a href="#">Sahil H.</a></p>
+		</section>
+
+		<!-- JavaScript for Toggle -->
+
+		<script>
+			var navLinks = document.getElementById("navLinks");
+
+			const showMenu = () => {
+				navLinks.style.right = "0";
+			};
+
+			const hideMenu = () => {
+				navLinks.style.right = "-200px";
+			};
+		</script>
+	</body>
+</html>

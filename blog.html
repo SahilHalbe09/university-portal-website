@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Courses | University Portal</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./styles.css" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet" />
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/68df65cdf8.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="./images/logo.png" alt="" /></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="/about.html">About</a></li>
+						<li><a href="/course.html">Course</a></li>
+						<li><a href="/blog.html">Blog</a></li>
+						<li><a href="/contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+			</nav>
+
+			<div class="text-box">
+				<h1>Our Certificate & Online Programs For 2023</h1>
+			</div>
+		</section>
+
+		<!-- Blogs -->
+		<section class="blog-content">
+			<div class="row">
+				<div class="blog-left">
+					<img src="./images/certificate.jpg" alt="" />
+					<h2>Our Certificate & Online Programs For 2023</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum facere culpa ea commodi, quisquam atque totam! Fugit quae modi, doloribus ratione consequatur
+						laboriosam nihil autem? Exercitationem, doloribus? Voluptate, similique! Ipsum facilis, minus optio necessitatibus voluptatem hic porro veniam veritatis repellendus inventore
+						corporis, animi iure quod recusandae qui numquam? Repudiandae!
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad ut, est soluta, adipisci laboriosam nam dicta in vel repellat suscipit accusantium cupiditate quam animi. Amet
+						repellendus dignissimos illum sequi. Incidunt, aut! Placeat sed exercitationem repellat perferendis harum minus perspiciatis tenetur nam ipsum nemo libero unde magnam, est
+						ullam soluta omnis obcaecati autem odio qui! Quo inventore quos officiis corrupti odio numquam nemo facilis, laboriosam ea. Quaerat modi possimus qui.
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quod velit quisquam, dicta deleniti enim officia sequi dolorem inventore, beatae ex tempora. Eius culpa ratione
+						aliquid eligendi, facilis sint tempore?
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi quasi voluptates quidem voluptatum hic, temporibus dolor dolorem iure quaerat voluptate, dolore placeat
+						ea nostrum neque atque fugit incidunt iusto quas illo. Enim laborum, molestias dicta corrupti asperiores ex cum ullam natus temporibus rerum deserunt ducimus exercitationem
+						consequatur distinctio in repellendus eum, fuga nobis adipisci debitis totam cumque. Et aliquam asperiores eos voluptates voluptatum. Nisi quia non enim nostrum.
+					</p>
+
+					<div class="comment-box">
+						<h3>Leave a comment</h3>
+						<form class="comment-form">
+							<input type="text" placeholder="Enter Name" />
+							<input type="email" placeholder="Enter Email" />
+							<textarea rows="5" placeholder="Your comments"></textarea>
+							<button type="submit" class="hero-btn red-btn">Post Comment</button>
+						</form>
+					</div>
+				</div>
+				<div class="blog-right">
+					<h3>Post Categories</h3>
+					<div>
+						<span>Business Analytics</span>
+						<span>26</span>
+					</div>
+					<div>
+						<span>Psychology Hons</span>
+						<span>44</span>
+					</div>
+					<div>
+						<span>Engineering</span>
+						<span>12</span>
+					</div>
+					<div>
+						<span>Industrial Microbiology</span>
+						<span>5</span>
+					</div>
+					<div>
+						<span>Economics Major</span>
+						<span>19</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA -->
+		<section class="cta">
+			<h1>
+				Enroll For Our Various Online Courses <br />
+				Anywhere From The World.
+			</h1>
+			<a href="" class="hero-btn">Contact Us</a>
+		</section>
+
+		<!-- Footer -->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem magni doloribus, quia nihil in a tempora aperiam atque? <br />
+				Deleniti cupiditate blanditiis fugiat accusamus. Autem, magnam?
+			</p>
+			<div class="icons">
+				<i class="fa fa-brands fa-facebook"></i>
+				<i class="fa fa-brands fa-twitter"></i>
+				<i class="fa fa-brands fa-instagram"></i>
+				<i class="fa fa-brands fa-linkedin"></i>
+			</div>
+			<p>Made By <i class="fa fa-solid fa-laptop-code"></i> <a href="#">Sahil H.</a></p>
+		</section>
+
+		<!-- JavaScript for Toggle -->
+
+		<script>
+			var navLinks = document.getElementById("navLinks");
+
+			const showMenu = () => {
+				navLinks.style.right = "0";
+			};
+
+			const hideMenu = () => {
+				navLinks.style.right = "-200px";
+			};
+		</script>
+	</body>
+</html>
